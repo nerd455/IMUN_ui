@@ -67,6 +67,39 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: white;
+}
+
+.center {
+    max-width: 500px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn1 {
+    padding: 5px 20px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    font-family: monospace;
+    border-radius: 20px;
+    transition: all .3s;
+    margin-right: 20px;
+    outline: none;
+}
+
+.btn1:hover, .btn:active, .btn:focus {
+    transform: scale(1.1);
+    outline: none;
+}
+
+.btn1_1 {
+    background: linear-gradient(to bottom right,rgb(255, 152, 0), rgb(250, 215, 132));
+    border: #ff9800;
 }
 
 @media only screen and (max-width: 540px) {
@@ -77,4 +110,20 @@ body, html {
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .center {
+        padding: 10px;
+        width: 100%;
+        top: 55%;
+        left: 50%;
+    }
+}
+
+#arrow {
+    margin: 0;
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 30px;
 }
