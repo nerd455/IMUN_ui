@@ -49,5 +49,17 @@ a:hover, a:active, a:focus {
     color: white;
 }
 
+.inter {
+    position: absolute;
+    font-size: 14px;
+    top: 18px;
+}
+
+.model {
+    position: absolute;
+    top: 38px;
+    font-size: 14px;
+}
+
 @media only screen and (max-width: 540px) {
 }
